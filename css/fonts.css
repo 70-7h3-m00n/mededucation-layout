@@ -1,0 +1,71 @@
+@font-face {
+	font-display: swap;
+	font-family: "Fira Sans";
+	src: url(../fonts/Firasansregular/Firasansregular.woff2) format("woff2"),
+	url("../fonts/Firasansregular/Firasansregular.woff") format("woff");
+	font-style: normal;
+	font-weight: 400;
+}
+
+@font-face {
+	font-display: swap;
+	font-family: "Fira Sans";
+	src: url(../fonts/Firasansmedium/Firasansmedium.woff2) format("woff2"),
+	url("../fonts/Firasansmedium/Firasansmedium.woff") format("woff");
+	font-style: normal;
+	font-weight: 500;
+}
+
+@font-face {
+	font-display: swap;
+	font-family: "Fira Sans";
+	src: url(../fonts/Firasanssemibold/Firasanssemibold.woff2) format("woff2"),
+	url("../fonts/Firasanssemibold/Firasanssemibold.woff") format("woff");
+	font-style: normal;
+	font-weight: 600;
+}
+
+@font-face {
+	font-display: swap;
+	font-family: "Fira Sans";
+	src: url(../fonts/Firasansbold/Firasansbold.woff2) format("woff2"),
+	url("../fonts/Firasansbold/Firasansbold.woff") format("woff");
+	font-style: normal;
+	font-weight: 700;
+}
+
+@font-face {
+	font-display: swap;
+	font-family: "Fira Sans";
+	src: url(../fonts/Firasanslight/Firasanslight.woff2) format("woff2"),
+	url("../fonts/Firasanslight/Firasanslight.woff") format("woff");
+	font-style: normal;
+	font-weight: 200;
+}
+
+@font-face {
+	font-display: swap;
+	font-family: "Roboto";
+	src: url(../fonts/Roboto/Roboto.woff2) format("woff2"),
+	url("../fonts/Roboto/Roboto.woff") format("woff");
+	font-style: normal;
+	font-weight: 400;
+}
+
+@font-face {
+	font-display: swap;
+	font-family: "Roboto";
+	src: url(../fonts/Robotolight/Robotolight.woff2) format("woff2"),
+	url("../fonts/Robotolight/Robotolight.woff") format("woff");
+	font-style: normal;
+	font-weight: 300;
+}
+
+@font-face {
+	font-display: swap;
+	font-family: "Roboto";
+	src: url(../fonts/Robotomedium/Robotomedium.woff2) format("woff2"),
+	url("../fonts/Robotomedium/Robotomedium.woff") format("woff");
+	font-style: normal;
+	font-weight: 500;
+}
