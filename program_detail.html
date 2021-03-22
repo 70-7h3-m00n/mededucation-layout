@@ -1,600 +1,915 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
-<head>
-	<meta charset="UTF-8">
-	<title>Mededucation</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<!--[if IE]>
-		<script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/r29/html5.min.js"></script>
-	<![endif]-->
-	<link rel="stylesheet" href="css/fonts.css" />
-	<link rel="stylesheet" href="css/slick.css" />
-	<link rel="stylesheet" href="css/jquery.fancybox.min.css" />
-	<link rel="stylesheet" href="css/main.css" />
-</head>
-<body>
-	
-	<div class="page">
-		
-		<!--header-->
-		<header>
-			<div class="container">
-				<div class="header-top">
-					<a href="" class="main-logo">
-						<div class="pic"><img src="images/main-logo.png" alt=""></div>
-						<span>Институт профессионального образования</span>
-					</a>
-					<div class="header-phone">
-						<p>Консультация по обучению:</p>
-						<a href="tel:8-499-116-69-63" class="tel">+7 (499) 116-69-63</a>
-					</div>
-					<a href="" class="button header-recall">Заказать звонок</a>
-					<ul class="socials-list">
-						<li><a href="" class="youtube"><img src="images/youtube.svg" alt=""></a></li>
-						<li><a href="" class="vk"><img src="images/vk.svg" alt=""></a></li>
-						<li><a href="" class="facebook"><img src="images/facebook.svg" alt=""></a></li>
-						<li><a href="" class="instagram"><img src="images/instagram.svg" alt=""></a></li>
-					</ul>
-					<a href="" class="button header-lk">Личный кабинет</a>
-					<ul class="header-buter">
-						<li></li>
-						<li></li>
-						<li></li>
-					</ul>
-				</div>
-				<div class="header-bottom">
-					<ul class="header-menu">
-						<li>
-							<a href="">Главная</a>
-						</li>
-						<li class="order-3">
-							<a href="" class="has-podmenu active-page">Дистанционные программы</a>
-							<ul class="header-podmenu">
-								<li><a href="">Высший медперсонал</a></li>
-								<li><a href="">Средний медперсонал</a></li>
-								<li><a href="">Управление в медицине</a></li>
-								<li><a href="">Программы НМО</a></li>
-								<li><a href="">Тематическое усовершенствование</a></li>
-							</ul>
-						</li>
-						<li class="order-2">
-							<a href="" class="has-podmenu">Вебинары</a>
-							<ul class="header-podmenu">
-								<li><a href="">Расписание</a></li>
-								<li><a href="">Записи</a></li>
-								<li><a href="">Спикеры</a></li>
-							</ul>
-						</li>
-						<li>
-							<a href="">Новости</a>
-						</li>
-						<li class="order-4">
-							<a href="" class="has-podmenu">Об Университете</a>
-							<ul class="header-podmenu">
-								<li><a href="">Сведения об образовательной организации</a></li>
-								<li><a href="">Документы</a></li>
-								<li><a href="">Образовательные стандарты</a></li>
-								<li><a href="">Руководство и педагогический состав</a></li>
-								<li><a href="">Вакансии</a></li>
-								<li><a href="">Отзывы</a></li>
-							</ul>
-						</li>
-						<li>
-							<a href="">Контакты</a>
-						</li>
-					</ul>
-					<form action="#" method="post" class="search-form header-search">
-						<input type="text">
-						<button type="submit"><img src="images/search.svg" alt=""></button>
-					</form>
-					<div class="header-bottom-mobile">
-						<a href="" class="button header-recall">Заказать звонок</a>
-							<ul class="socials-list">
-							<li><a href="" class="youtube"><img src="images/youtube.svg" alt=""></a></li>
-							<li><a href="" class="vk"><img src="images/vk.svg" alt=""></a></li>
-							<li><a href="" class="facebook"><img src="images/facebook.svg" alt=""></a></li>
-							<li><a href="" class="instagram"><img src="images/instagram.svg" alt=""></a></li>
-						</ul>
-						<a href="" class="button header-lk">Личный кабинет</a>
-						<div class="header-phone">
-							<p>Консультация по обучению:</p>
-							<a href="tel:8-499-116-69-63" class="tel">+7 (499) 116-69-63</a>
-						</div>
-					</div>
-					<div class="header-menu-close"><img src="images/close-menu.svg" alt=""></div>
-				</div>
-			</div>
-		</header>
-		<!--//header-->
+  <head>
+    <meta charset="UTF-8" />
+    <title>Mededucation</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--[if IE]>
+      <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/r29/html5.min.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" href="css/fonts.css" />
+    <link rel="stylesheet" href="css/slick.css" />
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <div class="page">
+      <!--header-->
+      <header>
+        <div class="container">
+          <div class="header-top">
+            <a href="" class="main-logo">
+              <div class="pic"><img src="images/main-logo.png" alt="" /></div>
+              <span>Институт профессионального образования</span>
+            </a>
+            <div class="header-phone">
+              <p>Консультация по обучению:</p>
+              <a href="tel:8-499-116-69-63" class="tel">+7 (499) 116-69-63</a>
+            </div>
+            <a href="" class="button header-recall">Заказать звонок</a>
+            <ul class="socials-list">
+              <li>
+                <a href="" class="youtube"
+                  ><img src="images/youtube.svg" alt=""
+                /></a>
+              </li>
+              <li>
+                <a href="" class="vk"><img src="images/vk.svg" alt="" /></a>
+              </li>
+              <li>
+                <a href="" class="facebook"
+                  ><img src="images/facebook.svg" alt=""
+                /></a>
+              </li>
+              <li>
+                <a href="" class="instagram"
+                  ><img src="images/instagram.svg" alt=""
+                /></a>
+              </li>
+            </ul>
+            <a href="" class="button header-lk">Личный кабинет</a>
+            <ul class="header-buter">
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="header-bottom">
+            <ul class="header-menu">
+              <li>
+                <a href="">Главная</a>
+              </li>
+              <li class="order-3">
+                <a href="" class="has-podmenu active-page"
+                  >Дистанционные программы</a
+                >
+                <ul class="header-podmenu">
+                  <li><a href="">Высший медперсонал</a></li>
+                  <li><a href="">Средний медперсонал</a></li>
+                  <li><a href="">Управление в медицине</a></li>
+                  <li><a href="">Программы НМО</a></li>
+                  <li><a href="">Тематическое усовершенствование</a></li>
+                </ul>
+              </li>
+              <li class="order-2">
+                <a href="" class="has-podmenu">Вебинары</a>
+                <ul class="header-podmenu">
+                  <li><a href="">Расписание</a></li>
+                  <li><a href="">Записи</a></li>
+                  <li><a href="">Спикеры</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="">Новости</a>
+              </li>
+              <li class="order-4">
+                <a href="" class="has-podmenu">Об Университете</a>
+                <ul class="header-podmenu">
+                  <li>
+                    <a href="">Сведения об образовательной организации</a>
+                  </li>
+                  <li><a href="">Документы</a></li>
+                  <li><a href="">Образовательные стандарты</a></li>
+                  <li><a href="">Руководство и педагогический состав</a></li>
+                  <li><a href="">Вакансии</a></li>
+                  <li><a href="">Отзывы</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="">Контакты</a>
+              </li>
+            </ul>
+            <form action="#" method="post" class="search-form header-search">
+              <input type="text" />
+              <button type="submit">
+                <img src="images/search.svg" alt="" />
+              </button>
+            </form>
+            <div class="header-bottom-mobile">
+              <a href="" class="button header-recall">Заказать звонок</a>
+              <ul class="socials-list">
+                <li>
+                  <a href="" class="youtube"
+                    ><img src="images/youtube.svg" alt=""
+                  /></a>
+                </li>
+                <li>
+                  <a href="" class="vk"><img src="images/vk.svg" alt="" /></a>
+                </li>
+                <li>
+                  <a href="" class="facebook"
+                    ><img src="images/facebook.svg" alt=""
+                  /></a>
+                </li>
+                <li>
+                  <a href="" class="instagram"
+                    ><img src="images/instagram.svg" alt=""
+                  /></a>
+                </li>
+              </ul>
+              <a href="" class="button header-lk">Личный кабинет</a>
+              <div class="header-phone">
+                <p>Консультация по обучению:</p>
+                <a href="tel:8-499-116-69-63" class="tel">+7 (499) 116-69-63</a>
+              </div>
+            </div>
+            <div class="header-menu-close">
+              <img src="images/close-menu.svg" alt="" />
+            </div>
+          </div>
+        </div>
+      </header>
+      <!--//header-->
 
-		<!--main-content-->
-		<div class="main-content">
+      <!--main-content-->
+      <div class="main-content">
+        <!--breadcrumbs-->
+        <div class="breadcrumbs-outer">
+          <div class="container">
+            <ul class="breadcrumbs">
+              <li><a href="">Главная</a></li>
+              <li><a href="">Дистанционные программы</a></li>
+              <li><a href="">Высший медицинский персонал</a></li>
+              <li><span>Название программы обучения</span></li>
+            </ul>
+          </div>
+        </div>
 
-			<!--breadcrumbs-->
-			<div class="breadcrumbs-outer">
-				<div class="container">
-					<ul class="breadcrumbs">
-						<li><a href="">Главная</a></li>
-						<li><a href="">Дистанционные программы</a></li>
-						<li><a href="">Высший медицинский персонал</a></li>
-						<li><span>Название программы обучения</span></li>
-					</ul>
-				</div>
-			</div>
+        <div class="container">
+          <div class="program-intro">
+            <div class="program-intro-left">
+              <h1>Название программы обучения</h1>
+              <div class="image">
+                <img src="images/program-intro-bg.jpg" alt="" />
+              </div>
+            </div>
+            <div class="program-intro-right">
+              <div class="price">50 000 <small>руб.</small></div>
+              <p>
+                Программа дополнительного профессионального образования
+                разработана с учетом ФГОС ординатуры по данной специальности.
+                Она включает изучение:
+              </p>
+              <ul class="program-intro-list">
+                <li>основ авиационной и космической медицины</li>
+                <li>нормальной и патологической физиологии</li>
+                <li>авиационной физиологии и патофизиологии</li>
+                <li>врачебно-летной экспертизы</li>
+                <li>авиационной медицинской авариологии</li>
+                <li>
+                  основ клиники, ранней диагностики и терапии инфекционных
+                  заболеваний
+                </li>
+                <li>принципов и методов формирования здорового образа жизни</li>
+              </ul>
+              <a class="button padding-button" href="">Узнать подробности</a>
+            </div>
+          </div>
+          <div class="program-detail-flex clearfix">
+            <div class="program-detail-content">
+              <!-- program-detail-information -->
+              <div class="program-detail-information">
+                <div class="top-block">
+                  <ul class="program-info-list">
+                    <li>
+                      <div class="pic">
+                        <img src="images/calendar.svg" alt="" />
+                      </div>
+                      <div>
+                        <div class="type">Время обучения:</div>
+                        <p>от 500 ч.</p>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="pic">
+                        <img src="images/chalkboard.svg" alt="" />
+                      </div>
+                      <div>
+                        <div class="type">Тип обучения:</div>
+                        <p>
+                          Очно-заочная форма с применением дистанционных
+                          образовательных технологий
+                        </p>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="pic">
+                        <img src="images/certificate.svg" alt="" />
+                      </div>
+                      <div>
+                        <div class="type">Получаемый документ:</div>
+                        <p>Диплом о профессиональной переподготовке</p>
+                        <p>Сертификат специалиста медицины</p>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="pic">
+                        <img src="images/graduate.svg" alt="" />
+                      </div>
+                      <div>
+                        <div class="type">Уровень образования:</div>
+                        <p>Высшее образование</p>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+                <div class="bottom-block">
+                  <h3>Возможно обучение в рассрочку на 12 месяцев!</h3>
+                  <a href="" class="button padding-button"
+                    >Узнать об условиях</a
+                  >
+                </div>
+              </div>
 
-			<div class="container">
-				<div class="program-intro">
-					<div class="program-intro-left">
-						<h1>Название программы обучения</h1>
-						<div class="image"><img src="images/program-intro-bg.jpg" alt=""></div>
-					</div>
-					<div class="program-intro-right">
-						<div class="price">50 000 <small>руб.</small></div>
-						<p>Программа дополнительного профессионального образования разработана с учетом ФГОС ординатуры по данной специальности. Она включает изучение:</p>
-						<ul class="program-intro-list">
-							<li>основ авиационной и космической медицины</li>
-							<li>нормальной и патологической физиологии</li>
-							<li>авиационной физиологии и патофизиологии</li>
-							<li>врачебно-летной экспертизы</li>
-							<li>авиационной медицинской авариологии</li>
-							<li>основ клиники, ранней диагностики и терапии инфекционных заболеваний</li>
-							<li>принципов и методов формирования здорового образа жизни</li>
-						</ul>
-						<a class="button padding-button" href="">Узнать подробности</a>
-					</div>
-				</div>
-				<div class="program-detail-flex clearfix">
-					<div class="program-detail-content">
-						
-						<!-- program-detail-information -->
-						<div class="program-detail-information">
-							<div class="top-block">
-								<ul class="program-info-list">
-									<li>
-										<div class="pic"><img src="images/calendar.svg" alt=""></div>
-										<div>
-											<div class="type">Время обучения:</div>
-											<p>от 500 ч.</p>
-										</div>
-									</li>
-									<li>
-										<div class="pic"><img src="images/chalkboard.svg" alt=""></div>
-										<div>
-											<div class="type">Тип обучения:</div>
-											<p>Очно-заочная форма с применением дистанционных образовательных технологий</p>
-										</div>
-									</li>
-									<li>
-										<div class="pic"><img src="images/certificate.svg" alt=""></div>
-										<div>
-											<div class="type">Получаемый документ:</div>
-											<p>Диплом о профессиональной переподготовке</p>
-											<p>Сертификат специалиста медицины</p>
-										</div>
-									</li>
-									<li>
-										<div class="pic"><img src="images/graduate.svg" alt=""></div>
-										<div>
-											<div class="type">Уровень образования:</div>
-											<p>Высшее образование</p>
-										</div>
-									</li>
-								</ul>
-							</div>
-							<div class="bottom-block">
-								<h3>Возможно обучение в рассрочку на 12 месяцев!</h3>
-								<a href="" class="button padding-button">Узнать об условиях</a>
-							</div>
-						</div>
+              <div class="program-detail-section">
+                <div class="floating-image">
+                  <img src="images/floating-image-1.jpg" alt="" />
+                </div>
+                <div class="simple-text">
+                  <p>
+                    <strong>Авиационная и космическая медицина</strong> — раздел
+                    медицины, который изучает состояния, в которых пребывает
+                    человеческий организм в условиях космических или авиационных
+                    полетов. Работа врача авиационной и космической медицины
+                    заключается в выполнении многих задач, куда входит
+                    медицинское сопровождение пассажиров и экипажа воздушного
+                    судна в течение или после полета, проведение комиссий
+                    по допуску к полетам, диагностика и наблюдение
+                    профессиональных заболеваний летчиков. В связи с развитием
+                    авиации, возрастает и уровень требований к квалификации
+                    специалистов медицинских служб, занятых в данной сфере.
+                    Врачи авиационной и космической медицины, как и другие
+                    специалисты, проходят курсы повышения квалификации не реже
+                    одного раза в пять лет.
+                  </p>
+                  <p>
+                    Помимо программ профессионального совершенствования,
+                    дополнительное образование врачей предполагает также
+                    профессиональную переподготовку.
+                    <strong>Пройти переподготовку </strong>по авиационной
+                    и космической медицине могут врачи с высшим образованием
+                    по направлениям «Лечебное дело» или «Педиатрия».
+                    <strong>Обучение на курсах </strong>позволит врачу перейти
+                    из одной специальности в другую или совмещать практику
+                    по нескольким направлениям деятельности.
+                  </p>
+                  <p>
+                    Медицинский университет инноваций и развития (МУИР)
+                    предлагает специалистам
+                    <strong
+                      >курсы повышения квалификации или профессиональной
+                      переподготовки </strong
+                    >по программе «Авиационная и космическая медицина». Прием на
+                    курсы осуществляется на основании документов об оконченном
+                    профильном (медицинском) высшем образовании. Программы
+                    регулярно обновляются, содержат только актуальную информацию
+                    правового и научного характера. Сразу после обучения
+                    слушатели курсов получают документы, которые позволяют
+                    преступить к работе по выбранной специальности.
+                  </p>
+                </div>
+              </div>
 
-						<div class="program-detail-section">
-							<div class="floating-image"><img src="images/floating-image-1.jpg" alt=""></div>
-							<div class="simple-text">
-								<p><strong>Авиационная и космическая медицина</strong> — раздел медицины, который изучает состояния, в которых пребывает человеческий организм в условиях космических или авиационных полетов. Работа врача авиационной и космической медицины заключается в выполнении многих задач, куда входит медицинское сопровождение пассажиров и экипажа воздушного судна в течение или после полета, проведение комиссий по допуску к полетам, диагностика и наблюдение профессиональных заболеваний летчиков. В связи с развитием авиации, возрастает и уровень требований к квалификации специалистов медицинских служб, занятых в данной сфере. Врачи авиационной и космической медицины, как и другие специалисты, проходят курсы повышения квалификации не реже одного раза в пять лет.</p>
-								<p>Помимо программ профессионального совершенствования, дополнительное образование врачей предполагает также профессиональную переподготовку. <strong>Пройти переподготовку </strong>по авиационной и космической медицине могут врачи с высшим образованием по направлениям «Лечебное дело» или «Педиатрия». <strong>Обучение на курсах </strong>позволит врачу перейти из одной специальности в другую или совмещать практику по нескольким направлениям деятельности.</p>
-								<p>Медицинский университет инноваций и развития (МУИР) предлагает специалистам <strong>курсы повышения квалификации или профессиональной переподготовки </strong>по программе «Авиационная и космическая медицина». Прием на курсы осуществляется на основании документов об оконченном профильном (медицинском) высшем образовании. Программы регулярно обновляются, содержат только актуальную информацию правового и научного характера. Сразу после обучения слушатели курсов получают документы, которые позволяют преступить к работе по выбранной специальности.</p>
-							</div>
-						</div>
+              <section class="program-detail-section blue-bg">
+                <div class="section-title">
+                  <h3>Цели обучения</h3>
+                </div>
+                <div class="simple-text">
+                  <p>
+                    Получение теоретических знаний и практических навыков,
+                    соответствующих современному представлению о развитии
+                    авиационной и космической медицины как области медицинских
+                    знаний.
+                  </p>
+                  <p>
+                    Программа дополнительного профессионального образования
+                    разработана с учетом ФГОС ординатуры по данной
+                    специальности. Она включает изучение:
+                  </p>
+                  <ul class="simple-list">
+                    <li>основ авиационной и космической медицины;</li>
+                    <li>нормальной и патологической физиологии;</li>
+                    <li>авиационной физиологии и патофизиологии;</li>
+                    <li>врачебно-летной экспертизы;</li>
+                    <li>авиационной медицинской авариологии;</li>
+                    <li>
+                      основ клиники, ранней диагностики и терапии инфекционных
+                      заболеваний;
+                    </li>
+                    <li>
+                      принципов и методов формирования здорового образа жизни.
+                    </li>
+                  </ul>
+                  <p>
+                    Программа курса полностью соответствует требованиям,
+                    предъявляемым к работникам данного направления. Она
+                    позволяет подготовить слушателя к прохождению аккредитации.
+                    С 1 января 2020 года такая процедура оценки квалификации
+                    обязательна для всех медицинских работников, прошедших
+                    переподготовку по специальности «Авиационная и космическая
+                    медицина».
+                  </p>
+                </div>
+              </section>
 
-						<section class="program-detail-section blue-bg">
-							<div class="section-title">
-								<h3>Цели обучения</h3>
-							</div>
-							<div class="simple-text">
-								<p>Получение теоретических знаний и практических навыков, соответствующих современному представлению о развитии авиационной и космической медицины как области медицинских знаний.</p>
-								<p>Программа дополнительного профессионального образования разработана с учетом ФГОС ординатуры по данной специальности. Она включает изучение:</p>
-								<ul class="simple-list">
-									<li>основ авиационной и космической медицины;</li>
-									<li>нормальной и патологической физиологии;</li>
-									<li>авиационной физиологии и патофизиологии;</li>
-									<li>врачебно-летной экспертизы;</li>
-									<li>авиационной медицинской авариологии;</li>
-									<li>основ клиники, ранней диагностики и терапии инфекционных заболеваний;</li>
-									<li>принципов и методов формирования здорового образа жизни.</li>
-								</ul>
-								<p>Программа курса полностью соответствует требованиям, предъявляемым к работникам данного направления. Она позволяет подготовить слушателя к прохождению аккредитации. С 1 января 2020 года такая процедура оценки квалификации обязательна для всех медицинских работников, прошедших переподготовку по специальности «Авиационная и космическая медицина».</p>
-							</div>
-						</section>
+              <section class="program-detail-section">
+                <div class="section-title">
+                  <h3>Для кого этот курс?</h3>
+                </div>
+                <div class="simple-text">
+                  <p>
+                    Профессиональная переподготовка ориентирована на следующих
+                    работников:
+                  </p>
+                  <ul class="simple-list">
+                    <li>врачи по авиационной и космической медицине;</li>
+                    <li>врачи общей врачебной практики (семейные врачи);</li>
+                    <li>врачи-терапевты всех категорий;</li>
+                    <li>судовые врачи;</li>
+                    <li>врачи здравпунктов;</li>
+                    <li>
+                      врачи приемного отделения терапевтических медицинских
+                      организаций или специализированных структурных
+                      подразделений;
+                    </li>
+                    <li>
+                      руководители структурных подразделений медицинских
+                      организаций, специализирующихся на авиационной и
+                      космической медицине, общей врачебной практике и терапии;
+                    </li>
+                    <li>
+                      работавшие ранее в области авиационной и космической
+                      медицины и желающие продолжить работу по данному
+                      направлению;
+                    </li>
+                    <li>
+                      иные работники, соответствующие требованиям к слушателям.
+                    </li>
+                  </ul>
+                </div>
+                <div class="program-help-outer">
+                  <div class="program-help-block">
+                    <div class="top-info flexing">
+                      <div class="pic">
+                        <img src="images/certificate.svg" alt="" />
+                      </div>
+                      <div>
+                        <h3>Не нашли нужную информацию? Не беда!</h3>
+                        <p>
+                          Мы работаем круглосуточно и всегда готовы перезвонить
+                          Вам!
+                        </p>
+                      </div>
+                    </div>
+                    <form action="#" method="post" class="program-help-form">
+                      <div class="input-block">
+                        <input type="text" placeholder="Телефон" required="" />
+                        <div class="input-pic phone">
+                          <img src="images/phone.svg" alt="" />
+                        </div>
+                      </div>
+                      <div class="input-block">
+                        <button type="submit" class="button gradient-button">
+                          Получить консультацию
+                        </button>
+                      </div>
+                    </form>
+                    <div class="image">
+                      <img src="images/help-block-bg-1.jpg" alt="" />
+                    </div>
+                  </div>
+                </div>
+              </section>
 
-						<section class="program-detail-section">
-							<div class="section-title">
-								<h3>Для кого этот курс?</h3>
-							</div>
-							<div class="simple-text">
-								<p>Профессиональная переподготовка ориентирована на следующих работников:</p>
-								<ul class="simple-list">
-									<li>врачи по авиационной и космической медицине;</li>
-									<li>врачи общей врачебной практики (семейные врачи);</li>
-									<li>врачи-терапевты всех категорий;</li>
-									<li>судовые врачи;</li>
-									<li>врачи здравпунктов;</li>
-									<li>врачи приемного отделения терапевтических медицинских организаций или специализированных структурных подразделений;</li>
-									<li>руководители структурных подразделений медицинских организаций, специализирующихся на авиационной и космической медицине, общей врачебной практике и терапии;</li>
-									<li>работавшие ранее в области авиационной и космической медицины и желающие продолжить работу по данному направлению;</li>
-									<li>иные работники, соответствующие требованиям к слушателям.</li>
-								</ul>
-							</div>
-							<div class="program-help-outer">
-								<div class="program-help-block">
-									<div class="top-info flexing">
-										<div class="pic"><img src="images/certificate.svg" alt=""></div>
-										<div>
-											<h3>Не нашли нужную информацию? Не беда!</h3>
-											<p>Мы работаем круглосуточно и всегда готовы перезвонить Вам!</p>
-										</div>
-									</div>
-									<form action="#" method="post" class="program-help-form">
-										<div class="input-block">
-											<input type="text" placeholder="Телефон" required="">
-											<div class="input-pic phone"><img src="images/phone.svg" alt=""></div>
-										</div>
-										<div class="input-block">
-											<button type="submit" class="button gradient-button">Получить консультацию</button>
-										</div>
-									</form>
-									<div class="image"><img src="images/help-block-bg-1.jpg" alt=""></div>
-								</div>
-							</div>
-						</section>
+              <section class="program-detail-section blue-bg">
+                <div class="section-title">
+                  <h3>Формат обучения</h3>
+                </div>
+                <div class="simple-text">
+                  <p>
+                    Обучение проводится по очно-заочной форме и основано на
+                    применении дистанционных образовательных технологий. Это
+                    позволяет слушателю успешно совмещать получение новых знаний
+                    и основную работу.
+                  </p>
+                  <p>
+                    Все взаимодействие между слушателем и академией реализуется
+                    на образовательном портале. Для каждого слушателя создается
+                    личный кабинет. В нем также размещаются необходимые учебные
+                    материалы. Проверка знаний осуществляется в формате
+                    онлайн-тестирования.
+                  </p>
+                </div>
+              </section>
 
-						<section class="program-detail-section blue-bg">
-							<div class="section-title">
-								<h3>Формат обучения</h3>
-							</div>
-							<div class="simple-text">
-								<p>Обучение проводится по очно-заочной форме и основано на применении дистанционных образовательных технологий. Это позволяет слушателю успешно совмещать получение новых знаний и основную работу.</p>
-								<p>Все взаимодействие между слушателем и академией реализуется на образовательном портале. Для каждого слушателя создается личный кабинет. В нем также размещаются необходимые учебные материалы. Проверка знаний осуществляется в формате онлайн-тестирования.</p>
-							</div>
-						</section>
+              <section class="program-detail-section">
+                <div class="section-title">
+                  <h3>Требования к слушателям</h3>
+                </div>
+                <div class="simple-text">
+                  <p class="pre-list">
+                    Курс могут пройти лица, завершившие подготовку в интернатуре
+                    или ординатуре по одной из следующих специальностей:
+                  </p>
+                  <ul class="simple-list">
+                    <li>«Авиационная и космическая медицина»;</li>
+                    <li>«Общая врачебная практика (семейная медицина)»;</li>
+                    <li>«Терапия».</li>
+                  </ul>
+                  <p>
+                    Приказом Минздрава России от 03.08.2012 № 66н также
+                    допускается обучение по программам профессиональной
+                    переподготовки с нормативным сроком обучения свыше 500 часов
+                    сотрудников с иным высшим медицинским или фармацевтическим
+                    образованием, если их непрерывный стаж работы по первичной
+                    специализации превышает 5 лет.
+                  </p>
+                  <p class="pre-list">Для начала обучения необходимо:</p>
+                  <ul class="simple-list">
+                    <li>подать заявку;</li>
+                    <li>подтвердить право обучаться на данном курсе;</li>
+                    <li>подписать договор;</li>
+                    <li>оплатить счет.</li>
+                  </ul>
+                  <p>Вступительные испытания не предусмотрены.</p>
+                  <p class="pre-list">
+                    Для подтверждения права на обучение необходимо предоставить:
+                  </p>
+                  <ul class="simple-list">
+                    <li>диплом о высшем образовании;</li>
+                    <li>диплом об окончании интернатуры или ординатуры;</li>
+                    <li>
+                      копию трудовой книжки (при несоответствии специальности
+                      требованиям приказа Минздрава России от 08.10.2015 №
+                      707н).
+                    </li>
+                  </ul>
+                </div>
+              </section>
 
-						<section class="program-detail-section">
-							<div class="section-title">
-								<h3>Требования к слушателям</h3>
-							</div>
-							<div class="simple-text">
-								<p class="pre-list">Курс могут пройти лица, завершившие подготовку в интернатуре или ординатуре по одной из следующих специальностей:</p>
-								<ul class="simple-list">
-									<li>«Авиационная и космическая медицина»;</li>
-									<li>«Общая врачебная практика (семейная медицина)»;</li>
-									<li>«Терапия».</li>
-								</ul>
-								<p>Приказом Минздрава России от 03.08.2012 № 66н также допускается обучение по программам профессиональной переподготовки с нормативным сроком обучения свыше 500 часов сотрудников с иным высшим медицинским или фармацевтическим образованием, если их непрерывный стаж работы по первичной специализации превышает 5 лет.</p>
-								<p class="pre-list">Для начала обучения необходимо:</p>
-								<ul class="simple-list">
-									<li>подать заявку;</li>
-									<li>подтвердить право обучаться на данном курсе;</li>
-									<li>подписать договор;</li>
-									<li>оплатить счет.</li>
-								</ul>
-								<p>Вступительные испытания не предусмотрены.</p>
-								<p class="pre-list">Для подтверждения права на обучение необходимо предоставить:</p>
-								<ul class="simple-list">
-									<li>диплом о высшем образовании;</li>
-									<li>диплом об окончании интернатуры или ординатуры;</li>
-									<li>копию трудовой книжки (при несоответствии специальности требованиям приказа Минздрава России от 08.10.2015 № 707н).</li>
-								</ul>
-							</div>
-						</section>
+              <section class="program-detail-section blue-bg">
+                <div class="section-title">
+                  <h3>Занимаемая должность</h3>
+                </div>
+                <div class="simple-text">
+                  <p>
+                    После обучения на курсе слушатель может претендовать на
+                    занятие должности врача по авиационной и космической
+                    медицине.
+                  </p>
+                  <p>
+                    При наличии стажа работы по данному направлению не менее 5
+                    лет врач, прошедший обучение в рамках ДПО, также получает
+                    право занять должность заведующего или начальника
+                    профильного структурного подразделения медицинской
+                    организации.
+                  </p>
+                </div>
+              </section>
 
-						<section class="program-detail-section blue-bg">
-							<div class="section-title">
-								<h3>Занимаемая должность</h3>
-							</div>
-							<div class="simple-text">
-								<p>После обучения на курсе слушатель может претендовать на занятие должности врача по авиационной и космической медицине.</p>
-								<p>При наличии стажа работы по данному направлению не менее 5 лет врач, прошедший обучение в рамках ДПО, также получает право занять должность заведующего или начальника профильного структурного подразделения медицинской организации.</p>
-							</div>
-						</section>
+              <section class="program-detail-section">
+                <div class="section-title">
+                  <h3>Учебный план</h3>
+                </div>
+                <div class="simple-text">
+                  <p>
+                    Типовой учебной программы профессиональной переподготовки по
+                    курсу
+                  </p>
+                  <p>«Авиационная и космическая медицина»</p>
+                </div>
+                <div class="program-example-table">
+                  <img src="images/program-example-table.jpg" alt="" />
+                </div>
+                <div class="program-help-outer">
+                  <div class="program-help-block">
+                    <div class="top-info">
+                      <div>
+                        <h3>
+                          Хотите чтобы этот учебный план был всегда под рукой?
+                        </h3>
+                        <p>Введите ваш e-mail и мы пришлем вам его на почту!</p>
+                      </div>
+                    </div>
+                    <form action="#" method="post" class="program-help-form">
+                      <div class="input-block">
+                        <input
+                          type="text"
+                          placeholder="Ваш email"
+                          required=""
+                        />
+                        <div class="input-pic mail">
+                          <img src="images/mail.svg" alt="" />
+                        </div>
+                      </div>
+                      <div class="input-block">
+                        <button type="submit" class="button gradient-button">
+                          учебный план
+                        </button>
+                      </div>
+                    </form>
+                    <div class="image">
+                      <img src="images/help-block-bg-2.jpg" alt="" />
+                    </div>
+                  </div>
+                </div>
+              </section>
 
-						<section class="program-detail-section">
-							<div class="section-title">
-								<h3>Учебный план</h3>
-							</div>
-							<div class="simple-text">
-								<p>Типовой учебной программы профессиональной переподготовки по курсу</p>
-								<p>«Авиационная и космическая медицина»</p>
-							</div>
-							<div class="program-example-table">
-								<img src="images/program-example-table.jpg" alt="">
-							</div>
-							<div class="program-help-outer">
-								<div class="program-help-block">
-									<div class="top-info">
-										<div>
-											<h3>Хотите чтобы этот учебный план был всегда под рукой?</h3>
-											<p>Введите ваш e-mail и мы пришлем вам его на почту!</p>
-										</div>
-									</div>
-									<form action="#" method="post" class="program-help-form">
-										<div class="input-block">
-											<input type="text" placeholder="Ваш email" required="">
-											<div class="input-pic mail"><img src="images/mail.svg" alt=""></div>
-										</div>
-										<div class="input-block">
-											<button type="submit" class="button gradient-button">учебный план</button>
-										</div>
-									</form>
-									<div class="image"><img src="images/help-block-bg-2.jpg" alt=""></div>
-								</div>
-							</div>
-						</section>
+              <section class="program-detail-section blue-bg">
+                <div class="section-title">
+                  <h3>Выдаваемые документы</h3>
+                </div>
+                <ul class="program-documents-list">
+                  <li>
+                    <div class="image">
+                      <img src="images/program-documents-1.jpg" alt="" />
+                    </div>
+                    <div>
+                      <div class="name">
+                        Диплом о профессиональной переподготовке
+                      </div>
+                      <a href="" class="button big-button gradient-button"
+                        >Пример документа</a
+                      >
+                    </div>
+                  </li>
+                  <li>
+                    <div class="image">
+                      <img src="images/program-documents-2.jpg" alt="" />
+                    </div>
+                    <div>
+                      <div class="name">Сертификат специалиста медицины</div>
+                      <p>
+                        <a href="" class="link"
+                          >Что изменилось с мед сертификатом в 2020г</a
+                        >
+                      </p>
+                    </div>
+                  </li>
+                </ul>
+              </section>
 
-						<section class="program-detail-section blue-bg">
-							<div class="section-title">
-								<h3>Выдаваемые документы</h3>
-							</div>
-							<ul class="program-documents-list">
-								<li>
-									<div class="image"><img src="images/program-documents-1.jpg" alt=""></div>
-									<div>
-										<div class="name">Диплом о профессиональной переподготовке</div>
-										<a href="" class="button big-button gradient-button">Пример документа</a>
-									</div>
-								</li>
-								<li>
-									<div class="image"><img src="images/program-documents-2.jpg" alt=""></div>
-									<div>
-										<div class="name">Сертификат специалиста медицины</div>
-										<p><a href="" class="link">Что изменилось с мед сертификатом в 2020г</a></p>
-									</div>
-								</li>
-							</ul>
-						</section>
+              <section class="program-detail-section">
+                <div class="section-title">
+                  <h3>Условия поступления</h3>
+                </div>
+                <ul class="program-conditions-list">
+                  <li>
+                    Иметь диплом о среднем профессиональном или высшем
+                    образовании по специальности
+                  </li>
+                  <li>
+                    Подайте заявку на обучение: <br />- по электронной почте,
+                    <br />- по форме обратной связи на сайте, <br />- или
+                    позвоните по бесплатному круглосуточному телефону;
+                  </li>
+                  <li>
+                    Предоставить документы, подтверждающие личность и имеющийся
+                    уровень образования;
+                  </li>
+                  <li>
+                    После подписания договора пройти курс обучения в
+                    дистанционном форме;
+                  </li>
+                  <li>
+                    Сдать итоговое тестирование, по результатам которого
+                    выдаются документы об образовании - удостоверение о
+                    повышении квалификации или диплом о профессиональной
+                    переподготовке по программе «Авиационная и космическая
+                    медицина ».
+                  </li>
+                </ul>
+              </section>
 
-						<section class="program-detail-section">
-							<div class="section-title">
-								<h3>Условия поступления</h3>
-							</div>
-							<ul class="program-conditions-list">
-								<li>Иметь диплом о среднем профессиональном или высшем образовании по специальности</li>
-								<li>Подайте заявку на обучение: <br>- по электронной почте, <br>- по форме обратной связи на сайте, <br>- или позвоните по бесплатному круглосуточному телефону;</li>
-								<li>Предоставить документы, подтверждающие личность и имеющийся уровень образования;</li>
-								<li>После подписания договора пройти курс обучения в дистанционном форме;</li>
-								<li>Сдать итоговое тестирование, по результатам которого выдаются документы об образовании - удостоверение о повышении квалификации или диплом о профессиональной переподготовке по программе «Авиационная и космическая медицина ».</li>
-							</ul>
-						</section>
+              <section class="program-detail-section blue-bg">
+                <div class="section-title">
+                  <h3>У нас обучаются</h3>
+                </div>
+                <div class="clients-slider-outer">
+                  <div class="clients-slider js-slick">
+                    <div class="clients-slider-block">
+                      <div class="image">
+                        <img src="images/clients/client-1.png" alt="" />
+                      </div>
+                    </div>
+                    <div class="clients-slider-block">
+                      <div class="image">
+                        <img src="images/clients/client-2.png" alt="" />
+                      </div>
+                    </div>
+                    <div class="clients-slider-block">
+                      <div class="image">
+                        <img src="images/clients/client-3.png" alt="" />
+                      </div>
+                    </div>
+                    <div class="clients-slider-block">
+                      <div class="image">
+                        <img src="images/clients/client-4.png" alt="" />
+                      </div>
+                    </div>
+                    <div class="clients-slider-block">
+                      <div class="image">
+                        <img src="images/clients/client-5.png" alt="" />
+                      </div>
+                    </div>
+                    <div class="clients-slider-block">
+                      <div class="image">
+                        <img src="images/clients/client-1.png" alt="" />
+                      </div>
+                    </div>
+                    <div class="clients-slider-block">
+                      <div class="image">
+                        <img src="images/clients/client-2.png" alt="" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
 
-						<section class="program-detail-section blue-bg">
-							<div class="section-title">
-								<h3>У нас обучаются</h3>
-							</div>
-							<div class="clients-slider-outer">
-								<div class="clients-slider js-slick">
-									<div class="clients-slider-block">
-										<div class="image"><img src="images/clients/client-1.png" alt=""></div>
-									</div>
-									<div class="clients-slider-block">
-										<div class="image"><img src="images/clients/client-2.png" alt=""></div>
-									</div>
-									<div class="clients-slider-block">
-										<div class="image"><img src="images/clients/client-3.png" alt=""></div>
-									</div>
-									<div class="clients-slider-block">
-										<div class="image"><img src="images/clients/client-4.png" alt=""></div>
-									</div>
-									<div class="clients-slider-block">
-										<div class="image"><img src="images/clients/client-5.png" alt=""></div>
-									</div>
-									<div class="clients-slider-block">
-										<div class="image"><img src="images/clients/client-1.png" alt=""></div>
-									</div>
-									<div class="clients-slider-block">
-										<div class="image"><img src="images/clients/client-2.png" alt=""></div>
-									</div>
-								</div>	
-							</div>				
-						</section>
+              <!-- diploms-section -->
+              <section class="program-detail-section">
+                <div class="section-title">
+                  <h3>Наши лицензии</h3>
+                </div>
+                <div class="diploms-slider diploms-slider-5 js-slick">
+                  <div class="diploms-slider-block">
+                    <a
+                      class="image"
+                      href="images/diploms/diplom-1-big.jpg"
+                      data-fancybox="diploms-gallery"
+                    >
+                      <img src="images/diploms/diplom-1-small.jpg" alt="" />
+                    </a>
+                    <div class="name">Письмо о внесении в список ФРДО</div>
+                  </div>
+                  <div class="diploms-slider-block">
+                    <a
+                      class="image"
+                      href="images/diploms/diplom-2-big.jpg"
+                      data-fancybox="diploms-gallery"
+                    >
+                      <img src="images/diploms/diplom-2-small.jpg" alt="" />
+                    </a>
+                    <div class="name">Лицензия 1 стр</div>
+                  </div>
+                  <div class="diploms-slider-block">
+                    <a
+                      class="image"
+                      href="images/diploms/diplom-3-big.jpg"
+                      data-fancybox="diploms-gallery"
+                    >
+                      <img src="images/diploms/diplom-3-small.jpg" alt="" />
+                    </a>
+                    <div class="name">Лицензия 2 стр</div>
+                  </div>
+                  <div class="diploms-slider-block">
+                    <a
+                      class="image"
+                      href="images/diploms/diplom-4-big.jpg"
+                      data-fancybox="diploms-gallery"
+                    >
+                      <img src="images/diploms/diplom-4-small.jpg" alt="" />
+                    </a>
+                    <div class="name">Приложение 1.1</div>
+                  </div>
+                  <div class="diploms-slider-block">
+                    <a
+                      class="image"
+                      href="images/diploms/diplom-5-big.jpg"
+                      data-fancybox="diploms-gallery"
+                    >
+                      <img src="images/diploms/diplom-5-small.jpg" alt="" />
+                    </a>
+                    <div class="name">Заключение о пож. безопасности</div>
+                  </div>
+                  <div class="diploms-slider-block">
+                    <a
+                      class="image"
+                      href="images/diploms/diplom-6-big.jpg"
+                      data-fancybox="diploms-gallery"
+                    >
+                      <img src="images/diploms/diplom-6-small.jpg" alt="" />
+                    </a>
+                    <div class="name">
+                      Санитарно-эпидемиологическое заключение
+                    </div>
+                  </div>
+                </div>
+                <div class="program-diploms-note">
+                  <p>
+                    Датой создания Автономной некоммерческой организации
+                    дополнительного профессионального образования «Академия
+                    медицинского образования», сокращенное название АНО ДПО
+                    «АМО», является 05 июля 2017 года.
+                  </p>
+                  <a href="" class="button padding-button"
+                    >Проверить в росеестре</a
+                  >
+                </div>
+              </section>
+            </div>
+            <div class="program-detail-sidebar sticky-block">
+              <div class="program-sidebar-info">
+                <div class="price">50 000 <small>руб.</small></div>
+                <p>
+                  Программа дополнительного профессионального образования
+                  разработана с учетом ФГОС ординатуры. Она включает изучение:
+                </p>
+                <ol>
+                  <li>Практика общение с преподавателями на вебинарах.</li>
+                  <li>Возможно обучение эстерном.</li>
+                  <li>
+                    Выдаваемые документы об образовании вносятся в федеральный
+                    реестр ФИС-ФРДО
+                  </li>
+                  <li>
+                    Образовательный контент 2020 года
+                    <span class="more">и многое другое ...</span>
+                  </li>
+                </ol>
+                <a href="" class="button padding-button">Узнать подробности</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--//main-content-->
 
-						<!-- diploms-section -->
-						<section class="program-detail-section">
-							<div class="section-title">
-								<h3>Наши лицензии</h3>
-							</div>
-							<div class="diploms-slider diploms-slider-5 js-slick">
-								<div class="diploms-slider-block">
-									<a class="image" href="images/diploms/diplom-1-big.jpg" data-fancybox="diploms-gallery">
-										<img src="images/diploms/diplom-1-small.jpg" alt="" />
-									</a>
-									<div class="name">Письмо о внесении в список ФРДО</div>
-								</div>
-								<div class="diploms-slider-block">
-									<a class="image" href="images/diploms/diplom-2-big.jpg" data-fancybox="diploms-gallery">
-										<img src="images/diploms/diplom-2-small.jpg" alt="" />
-									</a>
-									<div class="name">Лицензия 1 стр</div>
-								</div>
-								<div class="diploms-slider-block">
-									<a class="image" href="images/diploms/diplom-3-big.jpg" data-fancybox="diploms-gallery">
-										<img src="images/diploms/diplom-3-small.jpg" alt="" />
-									</a>
-									<div class="name">Лицензия 2 стр</div>
-								</div>
-								<div class="diploms-slider-block">
-									<a class="image" href="images/diploms/diplom-4-big.jpg" data-fancybox="diploms-gallery">
-										<img src="images/diploms/diplom-4-small.jpg" alt="" />
-									</a>
-									<div class="name">Приложение 1.1</div>
-								</div>
-								<div class="diploms-slider-block">
-									<a class="image" href="images/diploms/diplom-5-big.jpg" data-fancybox="diploms-gallery">
-										<img src="images/diploms/diplom-5-small.jpg" alt="" />
-									</a>
-									<div class="name">Заключение о пож. безопасности</div>
-								</div>
-								<div class="diploms-slider-block">
-									<a class="image" href="images/diploms/diplom-6-big.jpg" data-fancybox="diploms-gallery">
-										<img src="images/diploms/diplom-6-small.jpg" alt="" />
-									</a>
-									<div class="name">Санитарно-эпидемиологическое заключение</div>
-								</div>
-							</div>
-							<div class="program-diploms-note">
-								<p>Датой создания Автономной некоммерческой организации дополнительного профессионального образования «Академия медицинского образования», сокращенное название АНО ДПО «АМО», является 05 июля 2017 года.</p>
-								<a href="" class="button padding-button">Проверить в росеестре</a>
-							</div>
-						</section>
+      <!--footer-->
+      <footer>
+        <div class="footer-top">
+          <div class="container">
+            <div class="footer-top-content">
+              <ul class="footer-top-info">
+                <li>
+                  <a href="" class="main-logo">
+                    <div class="pic">
+                      <img src="images/main-logo.png" alt="" />
+                    </div>
+                    <span>Институт профессионального образования</span>
+                  </a>
+                </li>
+                <li>
+                  <p>
+                    &copy; 2020. Все права защищены. Дополнительное
+                    профессиональное образование - ДПО. НАНО ИПО - навигатор
+                    карьерного роста.
+                  </p>
+                </li>
+                <li>
+                  <p>Лицензия на образовательную деятельность № 039703</p>
+                </li>
+              </ul>
+              <div class="footer-top-links">
+                <div class="footer-top-links-flex">
+                  <ul class="footer-menu">
+                    <li>
+                      <a href="">Главная</a>
+                    </li>
+                    <li>
+                      <a href="">Новости</a>
+                    </li>
+                    <li>
+                      <a href="">Контакты</a>
+                    </li>
+                  </ul>
+                  <ul class="footer-menu">
+                    <li>
+                      <a href="">Вебинары</a>
+                      <ul class="footer-podmenu">
+                        <li><a href="">Расписание</a></li>
+                        <li><a href="">Записи</a></li>
+                        <li><a href="">Спикеры</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+                <ul class="footer-menu">
+                  <li>
+                    <a href="">Дистанционные программы</a>
+                    <ul class="footer-podmenu">
+                      <li><a href="">Высший медперсонал</a></li>
+                      <li><a href="">Средний медперсонал</a></li>
+                      <li><a href="">Управление в медицине</a></li>
+                      <li><a href="">Программы НМО</a></li>
+                      <li><a href="">Тематическое усовершенствование</a></li>
+                    </ul>
+                  </li>
+                </ul>
+                <ul class="footer-menu">
+                  <li>
+                    <a href="">Об Университете</a>
+                    <ul class="footer-podmenu">
+                      <li>
+                        <a href="">Сведения об образовательной организации</a>
+                      </li>
+                      <li><a href="">Документы</a></li>
+                      <li><a href="">Образовательные стандарты</a></li>
+                      <li>
+                        <a href="">Руководство и педагогический состав</a>
+                      </li>
+                      <li><a href="">Вакансии</a></li>
+                      <li><a href="">Отзывы</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+              <div class="footer-top-contacts">
+                <div class="footer-phone">
+                  <p>Консультация по обучению:</p>
+                  <a href="tel:8-499-116-69-63" class="tel"
+                    >+7 (499) 116-69-63</a
+                  >
+                </div>
+                <div class="footer-socials">
+                  <p>Социальные сети:</p>
+                  <ul class="socials-list">
+                    <li>
+                      <a href="" class="youtube"
+                        ><img src="images/youtube.svg" alt=""
+                      /></a>
+                    </li>
+                    <li>
+                      <a href="" class="vk"
+                        ><img src="images/vk.svg" alt=""
+                      /></a>
+                    </li>
+                    <li>
+                      <a href="" class="facebook"
+                        ><img src="images/facebook.svg" alt=""
+                      /></a>
+                    </li>
+                    <li>
+                      <a href="" class="instagram"
+                        ><img src="images/instagram.svg" alt=""
+                      /></a>
+                    </li>
+                  </ul>
+                </div>
+                <form
+                  action="#"
+                  method="post"
+                  class="search-form footer-search"
+                >
+                  <input type="text" />
+                  <button type="submit">
+                    <img src="images/search.svg" alt="" />
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-middle">
+          <div class="container">
+            <ul class="footer-middle-list">
+              <li><a href="">Политика обработки конфеденциальных данных</a></li>
+              <li><a href="">Техническая страница</a></li>
+              <li><a href="">Другая техническая страница</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <div class="container">
+            <ul class="footer-bottom-systems">
+              <li><img src="images/footer-pay-systems-1.jpg" alt="" /></li>
+              <li><img src="images/footer-pay-systems-2.jpg" alt="" /></li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+      <!--//footer-->
 
-					</div>
-					<div class="program-detail-sidebar sticky-block">
-						<div class="program-sidebar-info">
-							<div class="price">50 000 <small>руб.</small></div>
-							<p>Программа дополнительного профессионального образования разработана с учетом ФГОС ординатуры. Она включает изучение:</p>
-							<ol>
-								<li>Практика общение с преподавателями на вебинарах.</li>
-								<li>Возможно обучение эстерном.</li>
-								<li>Выдаваемые документы об образовании вносятся в федеральный реестр ФИС-ФРДО</li>
-								<li>Образовательный контент 2020 года <span class="more">и многое другое ...</span></li>
-							</ol>
-							<a href="" class="button padding-button">Узнать подробности</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>	
-		<!--//main-content-->
+      <div class="fixed-mobile-button">
+        <a href="" class="button">Оставить заявку</a>
+      </div>
+    </div>
 
-		<!--footer-->
-		<footer>
-			<div class="footer-top">
-				<div class="container">
-					<div class="footer-top-content">
-						<ul class="footer-top-info">
-							<li>
-								<a href="" class="main-logo">
-									<div class="pic"><img src="images/main-logo.png" alt=""></div>
-									<span>Институт профессионального образования</span>
-								</a>
-							</li>
-							<li>
-								<p>&copy; 2020. Все права защищены. Дополнительное профессиональное образование - ДПО. НАНО ИПО - навигатор карьерного роста.</p>
-							</li>
-							<li>
-								<p>Лицензия на образовательную деятельность № 039703</p>
-							</li>
-						</ul>
-						<div class="footer-top-links">
-							<div class="footer-top-links-flex">
-								<ul class="footer-menu">
-									<li>
-										<a href="">Главная</a>
-									</li>
-									<li>
-										<a href="">Новости</a>
-									</li>
-									<li>
-										<a href="">Контакты</a>
-									</li>
-								</ul>
-								<ul class="footer-menu">
-									<li>
-										<a href="">Вебинары</a>
-										<ul class="footer-podmenu">
-											<li><a href="">Расписание</a></li>
-											<li><a href="">Записи</a></li>
-											<li><a href="">Спикеры</a></li>
-										</ul>
-									</li>
-								</ul>
-							</div>
-							<ul class="footer-menu">
-								<li>
-									<a href="">Дистанционные программы</a>
-									<ul class="footer-podmenu">
-										<li><a href="">Высший медперсонал</a></li>
-										<li><a href="">Средний медперсонал</a></li>
-										<li><a href="">Управление в медицине</a></li>
-										<li><a href="">Программы НМО</a></li>
-										<li><a href="">Тематическое усовершенствование</a></li>
-									</ul>
-								</li>
-							</ul>
-							<ul class="footer-menu">
-								<li>
-									<a href="">Об Университете</a>
-									<ul class="footer-podmenu">
-										<li><a href="">Сведения об образовательной организации</a></li>
-										<li><a href="">Документы</a></li>
-										<li><a href="">Образовательные стандарты</a></li>
-										<li><a href="">Руководство и педагогический состав</a></li>
-										<li><a href="">Вакансии</a></li>
-										<li><a href="">Отзывы</a></li>
-									</ul>
-								</li>
-							</ul>
-						</div>
-						<div class="footer-top-contacts">
-							<div class="footer-phone">
-								<p>Консультация по обучению:</p>
-								<a href="tel:8-499-116-69-63" class="tel">+7 (499) 116-69-63</a>
-							</div>
-							<div class="footer-socials">
-								<p>Социальные сети:</p>
-								<ul class="socials-list">
-									<li><a href="" class="youtube"><img src="images/youtube.svg" alt=""></a></li>
-									<li><a href="" class="vk"><img src="images/vk.svg" alt=""></a></li>
-									<li><a href="" class="facebook"><img src="images/facebook.svg" alt=""></a></li>
-									<li><a href="" class="instagram"><img src="images/instagram.svg" alt=""></a></li>
-								</ul>
-							</div>
-							<form action="#" method="post" class="search-form footer-search">
-								<input type="text">
-								<button type="submit"><img src="images/search.svg" alt=""></button>
-							</form>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="footer-middle">
-				<div class="container">
-					<ul class="footer-middle-list">
-						<li><a href="">Политика обработки конфеденциальных данных</a></li>
-						<li><a href="">Техническая страница</a></li>
-						<li><a href="">Другая техническая страница</a></li>
-					</ul>
-				</div>
-			</div>
-			<div class="footer-bottom">
-				<div class="container">
-					<ul class="footer-bottom-systems">
-						<li><img src="images/footer-pay-systems-1.jpg" alt=""></li>
-						<li><img src="images/footer-pay-systems-2.jpg" alt=""></li>
-					</ul>
-				</div>
-			</div>
-		</footer>
-		<!--//footer-->
-
-		<div class="fixed-mobile-button">
-			<a href="" class="button">Оставить заявку</a>
-		</div>
-	</div>
-	
-	<script src="js/jquery-3.5.1.min.js"></script>
-	<script src="js/slick.min.js"></script>
-	<script src="js/jquery.fancybox.min.js"></script>
-	<script src="js/stickykit.js"></script>
-	<script src="js/jquery.autocolumnlist.min.js"></script>
-	<script src="js/myjs.js"></script>
-	
-</body>
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/stickykit.js"></script>
+    <script src="js/jquery.autocolumnlist.min.js"></script>
+    <script src="js/myjs.js"></script>
+  </body>
 </html>
